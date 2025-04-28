@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <!-- Taskbar -->
+    <div class="taskbar">
+        <div class="logo">🔥 ChatZone</div>
+    </div>
+
+    <div class="container">
+        <!-- Explorer Sidebar -->
+        <div class="explorer" id="explorer">
+            <div class="explorer-header">📁 Users</div>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="chat-window">
+            <div class="chat-messages" id="chat-messages">
+                <p class="message"><strong>Alice:</strong> Hello!</p>
+                <p class="message"><strong>Bob:</strong> Hi there!</p>
+            </div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
